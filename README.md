@@ -17,6 +17,7 @@ The main goal was keeping everything on a clean static white and fixing a few an
 - `keeper.py` - Lightweight daemon that keeps pinging the GPU every 15s to prevent Gigabyte's firmware watchdog from turning the logo back to default blue.
 - `effects.py` - Simple waterfall / rain drop animation and breathing effect using the SDK.
 - `run_admin.bat` - Kills leftover Asus Armoury Crate processes that lock the SMBus, starts the PawnIO service, and launches OpenRGB as admin so the Corsair RAM gets detected properly.
+- `install_autostart.bat` - Registers a Windows Scheduled Task with highest privileges so the sync runs automatically at logon without prompting UAC every time.
 - `clean_asus.bat` - Stops and disables the leftover Asus background services.
 
 ## Setup
